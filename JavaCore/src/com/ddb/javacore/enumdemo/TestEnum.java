@@ -7,25 +7,25 @@ public class TestEnum {
 		PrintStream out = System.out;
 		switch (we) {
 		case MONDAY:
-			out.println("星期一   ");
+			out.println("鏄熸湡涓�   ");
 			break;
 		case TUESDAY:
-			out.println("星期二  ");
+			out.println("鏄熸湡浜�  ");
 			break;
 		case WEDNESDAY:
-			out.println("星期三  ");
+			out.println("鏄熸湡涓�  ");
 			break;
 		case THURSDAY:
-			out.println("星期四   ");
+			out.println("鏄熸湡鍥�   ");
 			break;
 		case FRIDAY:
-			out.println("星期五   ");
+			out.println("鏄熸湡浜�   ");
 			break;
 		case SATURDAY:
-			out.println("星期六   ");
+			out.println("鏄熸湡鍏�   ");
 			break;
 		default:
-			out.println("星期日   ");
+			out.println("鏄熸湡鏃�   ");
 			break;
 		}
 	}
@@ -82,11 +82,10 @@ public class TestEnum {
 		print2(WeekEnum2.THURSDAY);
 		print2(WeekEnum2.FRIDAY);
 		
-		out.println("遍历打印枚举所有值 ：");
+		out.println("閬嶅巻鎵撳嵃鏋氫妇鎵�鏈夊�� 锛�");
 		for (WeekEnum2 string : WeekEnum2.values()) {
 			PrintWeek(string, out);
 		}
-		
 		
 	}
 

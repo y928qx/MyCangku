@@ -23,33 +23,33 @@ public class TreeSetDemo {
 
 		Human human19 = new Human("ID000", 19);
 		tSet.ceiling(human19);
-		out.println("tSet.ceiling(new Human('ID000',19))  è¿”å›å¤§äºç­‰äº19çš„æœ€å°å…ƒç´ : " + tSet.ceiling(human19));
+		out.println("tSet.ceiling(new Human('ID000',19))  ·µ»Ø´óÓÚµÈÓÚ19µÄ×îĞ¡ÔªËØ: " + tSet.ceiling(human19));
 
 		Human human10 = new Human("ID000", 10);
 		tSet.ceiling(human10);
-		out.println("tSet.ceiling(new Human('ID000',10))  è¿”å›å¤§äºç­‰äº10çš„æœ€å°å…ƒç´ : " + tSet.ceiling(human10));
+		out.println("tSet.ceiling(new Human('ID000',10))  ·µ»Ø´óÓÚµÈÓÚ10µÄ×îĞ¡ÔªËØ:: " + tSet.ceiling(human10));
 
 		Human human14 = new Human("ID000", 14);
 		tSet.ceiling(human14);
-		out.println("tSet.ceiling(new Human('ID000',14))  è¿”å›å¤§äºç­‰äº14çš„æœ€å°å…ƒç´ : " + tSet.ceiling(human14));
+		out.println("tSet.ceiling(new Human('ID000',14))  ·µ»Ø´óÓÚµÈÓÚ14µÄ×îĞ¡ÔªËØ:: " + tSet.ceiling(human14));
 
-		out.println("tSet.floor(human19)  è¿”å›å°äºç­‰äºç»™å®šå…ƒç´ çš„æœ€å¤§å€¼ ï¼š" + tSet.floor(human19));
-		out.println("tSet.floor(human10)  è¿”å›å°äºç­‰äºç»™å®šå…ƒç´ çš„æœ€å¤§å€¼ ï¼š" + tSet.floor(human10));
-		out.println("tSet.floor(human14)  è¿”å›å°äºç­‰äºç»™å®šå…ƒç´ çš„æœ€å¤§å€¼ ï¼š" + tSet.floor(human14));
+		out.println("tSet.floor(human19)  ·µ»ØĞ¡ÓÚµÈÓÚ¸ø¶¨ÔªËØµÄ×î´óÖµ" + tSet.floor(human19));
+		out.println("tSet.floor(human10)  ·µ»ØĞ¡ÓÚµÈÓÚ¸ø¶¨ÔªËØµÄ×î´óÖµ" + tSet.floor(human10));
+		out.println("tSet.floor(human14) ·µ»ØĞ¡ÓÚµÈÓÚ¸ø¶¨ÔªËØµÄ×î´óÖµ £º"+ tSet.floor(human14));
 
 		out.println("tSet.first() : " + tSet.first());
 		out.println("tSet.last() : " + tSet.last());
 
-		out.println("tSet.headSet(human14)  è¿”å›ä¸¥æ ¼å°äºç»™å®šå…ƒç´ çš„Seté›†åˆ: " + tSet.headSet(human14));
-		out.println("tSet.tailSet(human14)  è¿”å›ä¸¥æ ¼å¤§äºç­‰äºç»™å®šå…ƒç´ çš„Seté›†åˆ: " + tSet.tailSet(human14));
+		out.println("tSet.headSet(human14)  ·µ»ØÑÏ¸ñĞ¡ÓÚ¸ø¶¨ÔªËØµÄSet¼¯ºÏ " + tSet.headSet(human14));
+		out.println("tSet.tailSet(human14) ·µ»ØÑÏ¸ñ´óÓÚµÈÓÚ¸ø¶¨ÔªËØµÄSet¼¯ºÏ:: " + tSet.tailSet(human14));
 
-		out.println("tSet.tailSet(human14,false)  è¿”å›ä¸¥æ ¼å¤§äºç»™å®šå…ƒç´ çš„Seté›†åˆ: " + tSet.tailSet(human14, false));
-		out.println("tSet.tailSet(human14,true)  è¿”å›ä¸¥æ ¼å¤§äºç»™å®šå…ƒç´ çš„Seté›†åˆ: " + tSet.tailSet(human14, true));
+		out.println("tSet.tailSet(human14,false)  ·µ»ØÑÏ¸ñ´óÓÚ¸ø¶¨ÔªËØµÄSet¼¯ºÏ: " + tSet.tailSet(human14, false));
+		out.println("tSet.tailSet(human14,true) ·µ»ØÑÏ¸ñ´óÓÚ¸ø¶¨ÔªËØµÄSet¼¯ºÏ:" + tSet.tailSet(human14, true));
 
 		TreeSet<Human> tSet2 = (TreeSet<Human>) tSet.clone();
 		out.println("tSet2 : " + tSet2);
 		out.println("tSet : " + tSet);
-		out.println("ä¿®æ”¹tSet2 ï¼š ");
+		out.println("ĞŞ¸ÄtSet2");
 		for (Human human : tSet2) {
 			human.setAge(25);
 		}
