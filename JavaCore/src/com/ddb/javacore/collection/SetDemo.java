@@ -57,7 +57,7 @@ public class SetDemo {
 		
 		out.println("intSet.toArray() : " + intSet.toArray());
 		out.println("intSet : " + intSet);
-		//intSet.to
+		//intSet.to0
 		
 		List<Integer> intList = new ArrayList<Integer>();
 		for (int i = 1; i <=15; i++) {
@@ -80,3 +80,4 @@ public class SetDemo {
 	}
 
 }
+
