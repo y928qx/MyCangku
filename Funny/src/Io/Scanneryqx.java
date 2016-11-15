@@ -5,17 +5,17 @@ import java.util.Scanner;
 public class Scanneryqx {
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
-		System.out.println("ÊäÈëÒ»¸öÊıÀ´ÅĞ¶ÏÔ²µÄÃæ»ıÓëÖÜ³¤");
+		System.out.println("è¯·è¾“å…¥");
 		if (scanner.hasNextInt()) {
 			Double s, L;
 			int r;
 			r = scanner.nextInt();
 			s = 3.14 * r * r;
 			L = 2 * 3.14 * r;
-			System.out.println("Êä³öµÄÔ²µÄÃæ»ıÎª    " + s);
-			System.out.println("Êä³öµÄÔ²µÄÖÜ³¤Îª    " + L);
+			System.out.println("ï¿½ï¿½ï¿½ï¿½ï¿½Ô²ï¿½ï¿½ï¿½ï¿½ï¿½Îª    " + s);
+			System.out.println("ï¿½ï¿½ï¿½ï¿½ï¿½Ô²ï¿½ï¿½ï¿½Ü³ï¿½Îª    " + L);
 		} else {
-			System.out.println("ÄãÊäÈëµÄ²»¶Ô");
+			System.out.println("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä²ï¿½ï¿½ï¿½");
 		}
 	}
 }
